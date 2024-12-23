@@ -1,0 +1,8 @@
+name: Demo Acti0ns
+on: workflow_dispatch
+jobs:
+  testing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Tasting worflow
+        run: echo "workflow works!"
